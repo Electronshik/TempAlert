@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="monitor_auth.css">
+	<title>Monitor</title>
+</head>
+<body>
+	<div class="temp-container">
+		<form action="/auth-settings" method="post">
+			<input type="hidden" name="login" value="">
+			<input type="hidden" name="pass" value="">
+			<p>Температура тревоги</p>
+			<input type="text" name="temp-alarm" required value="42">
+			<button type="submit">Сохранить</button>
+			<p><a href="/" class="temp-set">Назад</a></p>
+		</form>
+	</div>
+</body>
+</html>

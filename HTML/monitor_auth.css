@@ -1,0 +1,57 @@
+.temp-container {
+	width: 80%;
+	margin: 70px auto;
+	min-height: 200px;
+}
+form {
+	width: 50%;
+	max-width: 500px;
+	margin: 40px auto;
+}
+input, button {
+	font-size: 1em;
+	width: 70%;
+	max-width: 300px;
+	height: 24px;
+	margin: 4px 0;
+	padding: 0;
+	border: 1px solid #aaa;
+}
+button {
+	height: 30px;
+	width: 72%;
+	background-color: #fff;
+	border: none;
+	text-align: center;
+	color: darkblue;
+	cursor: pointer;
+	border-bottom: 1px solid #f5f5f5;
+	border-right: 1px solid #f3f3f3;
+}
+button:hover {
+	background-color: #e7e7e7;
+}
+p {
+	width: 70%;
+	max-width: 300px;
+	height: 24px;
+	margin: 4px 0;
+	padding: 0;
+	padding-left: 20px;
+	font-size: 1em;
+	font-family: PT Sans;
+	line-height: 34px;
+}
+a {
+	display: block;
+	text-decoration: none;
+	width: 85%;
+	margin: 20px 0;
+	text-align: center;
+	color: darkblue;
+	border-bottom: 1px solid #f5f5f5;
+	border-right: 1px solid #f3f3f3;
+}
+ a:hover {
+ 	background-color: #e7e7e7;
+ }

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="monitor.css">
+	<title>Monitor</title>
+</head>
+<body>
+	<div class="temp-container">
+		<p class="temp-ind">Temp 1: 25.6 &degC</p>
+		<p class="temp-ind">Temp 2: 32.2 &degC</p>
+		<p class="temp-ind alarm">Температура тревоги:&nbsp 40 C<span class="time">2015/23/32 19:45:08</span></p>
+		<p class="temp-ind" style="background: none;"><a href="monitor-auth.html" class="temp-set">Settings</a></p>
+	</div>
+	<script type="text/javascript">setInterval(function() {location.reload();}, 3000);</script>
+</body>
+</html>
